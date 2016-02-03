@@ -1,0 +1,135 @@
+div > div
+	{
+		margin: 10px;
+	}
+.container 
+	{
+		width: 700px;
+		margin: 0 auto;
+	}
+hr.menulong
+	{
+		width: 700px;
+		margin-top: 5px; 
+		margin-bottom: 1px;
+		border: 0;
+		border-top: 1px solid black;
+		border-bottom: 1px solid #333;
+		float: left;
+		position: absolute;
+	}
+hr.vertical
+	{
+		width: 1px;
+		height: 8px;
+		border-top: 1px solid black;
+		border-bottom: 
+	}
+hr.griscentro
+	{
+		width: 100px;
+		margin-top: 5px; 
+		margin-bottom: 10px;
+		border: 0;
+		border-top: 1px solid gray;
+		border-bottom: 1px solid gray;
+		float: center;
+		position: absolute;
+	}
+hr.nuestrascoders 
+	{
+		border: 0;
+		border-top: 1px solid black;
+		border-bottom: 1px solid #333;
+		width: 100px;
+		float: left;
+		position: absolute;
+	}
+.span
+ 	{
+ 		display: inline-block;
+ 	}
+h3 
+	{
+		font-weight: 13px;
+	}
+.filter
+	{
+		opacity: 0.8;
+		border-radius: 20px;
+		-webkit-filter: grayscale(0.4) blur(1px);
+	} 
+.image
+	{
+		position: relative;
+	}
+.imgroup
+	{
+		width: 700px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+body 
+	{
+		padding: 30px;
+	}
+h6
+	{
+		position: absolute;
+		right: 2%;
+		bottom: -15px;
+		color: green;
+		font-family: courier;
+		font-size: 15px;
+		text-shadow: 1px 1px black;
+	}
+p
+	{
+		font-size: 30px;
+		text-align: center;
+	}
+/* Código del ejercicio "Nuestras Coders" INICIO
+body 
+	{
+		padding: 30px;
+	}
+div > div
+	{
+		margin: 10px;
+	}
+h6
+	{
+		position: absolute;
+		right: 2%;
+		bottom: -15px;
+		color: green;
+		font-family: courier;
+		font-size: 15px;
+		text-shadow: 1px 1px black;
+	}
+hr 
+	{
+		border: 0;
+		border-top: 3px solid black;
+		border-bottom: 1px solid #333;
+		width: 100px;
+		float: left;
+		position: absolute;
+	}
+.span
+ 	{
+ 		display: inline-block;
+ 	}
+.filter
+	{
+		opacity: 0.8;
+		border-radius: 20px;
+		-webkit-filter: grayscale(0.4) blur(1px);
+	} 
+.image
+	{
+		position: relative;
+	} 
+	FIN */
