@@ -2,19 +2,19 @@ div > div
 	{
 		margin: 2px;
 	}
-.container 
+.container /* Las dos páginas html -indes y coder-detail la llevan */
 	{
 		width: 700px;
 		margin: 0 auto;
 	}
-ul
+ul /* esta etiqueta es para el menú Inicio - Contacto 1a página*/
 	{
 		text-align: center;
 		padding: 0px;
 		margin-top: 0px;
 		margin-bottom: 15px;
 	}	
-li > p
+li > p /* esta etiqueta es para el menú Inicio - Contacto 1a página*/
 	{
 		font-size: 30px;
 		text-align: center;
@@ -22,14 +22,14 @@ li > p
 		padding-left: 5px;
 		padding-right: 5px;
 	}
-.menulong
+.hrmenulong /* esta etiqueta es para los hr largos menú Inicio - Contacto */
 	{
 		width: 700px;
 		border-top: 1px solid black;
 		position: a;
 		margin: 0px;
 	}
-.vertical
+.hrvertical /* esta etiqueta es para los hr verticales menú Inicio - Contacto */
 	{
 		height: 25px;
 		width: 10px solid black;
@@ -37,7 +37,7 @@ li > p
 		top: 15px;
 		right: 1px;
 	}
-.griscentro
+.hrgriscentro /* esta etiqueta es para los hr grises arriba y abajo del párrafo del index */
 	{
 		width: 80px;
 		margin-top: 5px; 
@@ -48,7 +48,7 @@ li > p
 		float: center;
 		position: relative;
 	}
-.bordegris
+.bordegris /* esta etiqueta es para el div container 2da página  */
 	{
 		border: gray solid 4px;
 	}
@@ -67,7 +67,7 @@ strong
  	{
  		display: inline-block;
   	}
-.sizeimg
+.sizeimg /* Tamaño de imágenes de index-foto-grupal y portafolio*/
 	{
 		width: 200px;
 		height: 150px;
@@ -80,25 +80,26 @@ strong
 		margin-left: 20px;
 		margin-bottom: 30px;
 	}
-h1
+h1 /* esta etiqueta es para Nombre y Apellido 2da página */
 	{
 		text-align: center;
 		font-size: 50px;
 		font-weight: 10px;
 	}
-h2
+h2 /*esta etiqueta es para Habilidades y Portafolio 2da página */
 	{
 		text-align: left;
 		font-size: 35px;
 		font-weight: 10px;
 		margin-left: 20px;
 	}
-h3 
+h3 /* ésta es para Nuestras coders 1a página */
 	{
+		font-size: 25px;
 		font-weight: 13px;
 		margin: 3px;
 	}
-.latin
+.latin /* esta etiqueta es para el párrafo grande de 2da página */
 	{
 		font-size: 22px;
 		text-align: center;
@@ -107,19 +108,35 @@ h3
 		margin-bottom: 5px;
 		margin-left: 70px;
 	}
-.txtbla
+.txtbla /*texto blanco en divs grises de 2da página */
 	{
 		font-size: 30px;
 		color: white;
+		padding-top: 20px;
+		padding-left: 15px;
 	}
-.fondogris
+.grande /* Div gris grande*/
 	{
+		height: 50px;
+		width: 500px;
 		background-color: gray;
+		margin-left: 50px;
+		margin-bottom: 30px;
 	}
-	}
-.izq
+.mediano /* Div gris mediano*/
 	{
-		text-align: left;
+		height: 50px;
+		width: 350px;
+		background-color: gray;
+		margin-left: 50px;
+		margin-bottom: 30px;
+	}
+.chico /* Div gris chico*/
+	{
+		height: 50px;
+		width: 200px;
+		background-color: gray;
+		margin-left: 50px;
 	}
 .filter
 	{
@@ -141,9 +158,11 @@ h3
 	}
 .round
 	{
+		width: 150px;
+		height: 150px;
 		border-radius: 150px;
 		position: relative;
-		left: 35%;
+		left: 40%;
 		margin-top: 5px;
 	}
 body 
