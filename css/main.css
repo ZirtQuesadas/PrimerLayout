@@ -1,47 +1,61 @@
 div > div
 	{
-		margin: 10px;
+		margin: 2px;
 	}
 .container 
 	{
 		width: 700px;
 		margin: 0 auto;
 	}
-hr.menulong
+ul
+	{
+		text-align: center;
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}	
+li > p
+	{
+		font-size: 30px;
+		text-align: center;
+		margin: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+.menulong
 	{
 		width: 700px;
-		margin-top: 5px; 
-		margin-bottom: 1px;
-		border: 0;
 		border-top: 1px solid black;
-		border-bottom: 1px solid #333;
-		float: left;
-		position: absolute;
+		position: a;
+		margin: 0px;
 	}
-hr.vertical
+.vertical
 	{
-		width: 1px;
-		height: 8px;
-		border-top: 1px solid black;
-		border-bottom: 
+		height: 25px;
+		width: 10px solid black;
+		position: relative;
+		top: 15px;
+		right: 1px;
 	}
-hr.griscentro
+.griscentro
 	{
-		width: 100px;
+		width: 80px;
 		margin-top: 5px; 
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 		border: 0;
 		border-top: 1px solid gray;
 		border-bottom: 1px solid gray;
 		float: center;
-		position: absolute;
+		position: relative;
 	}
-hr.nuestrascoders 
+strong 
 	{
-		border: 0;
+		font-size: 25px;
+	}	
+.nuestrascoders 
+	{
 		border-top: 1px solid black;
-		border-bottom: 1px solid #333;
-		width: 100px;
+		width: 60px;
 		float: left;
 		position: absolute;
 	}
@@ -52,6 +66,7 @@ hr.nuestrascoders
 h3 
 	{
 		font-weight: 13px;
+		margin: 3px;
 	}
 .filter
 	{
@@ -89,6 +104,10 @@ p
 	{
 		font-size: 30px;
 		text-align: center;
+		margin-top: 20px;
+		margin-right: 100px;
+		margin-bottom: 20px;
+		margin-left: 100px;
 	}
 /* Código del ejercicio "Nuestras Coders" INICIO
 body 
