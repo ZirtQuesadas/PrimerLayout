@@ -2,10 +2,10 @@ div > div
 	{
 		margin: 2px;
 	}
-.container /* Las dos páginas html -indes y coder-detail la llevan */
+.container /* Los dos html: index y coder-detail la llevan */
 	{
-		width: 700px;
-		margin: 0 auto;
+	width: 700px;
+	margin: 0 auto;
 	}
 ul /* esta etiqueta es para el menú Inicio - Contacto 1a página*/
 	{
@@ -22,31 +22,33 @@ li > p /* esta etiqueta es para el menú Inicio - Contacto 1a página*/
 		padding-left: 5px;
 		padding-right: 5px;
 	}
-.hrmenulong /* esta etiqueta es para los hr largos menú Inicio - Contacto */
+.hrmenulong /* esta etiqueta es para los hr largos del 
+				menú Inicio - Contacto */
 	{
-		width: 700px;
-		border-top: 1px solid black;
-		position: a;
-		margin: 0px;
+	width: 700px;
+	border-top: 1px solid black;
+	position: a;
+	margin: 0px;
 	}
-.hrvertical /* esta etiqueta es para los hr verticales menú Inicio - Contacto */
+.hrvertical /* esta etiqueta es para los hr verticales del
+				 menú Inicio - Contacto */
 	{
-		height: 25px;
-		width: 10px solid black;
-		position: relative;
-		top: 15px;
-		right: 1px;
+	height: 25px;
+	width: 10px solid black;
+	position: relative;
+	top: 15px;
+	right: 1px;
 	}
 .hrgriscentro /* esta etiqueta es para los hr grises arriba y abajo del párrafo del index */
 	{
-		width: 80px;
-		margin-top: 5px; 
-		margin-bottom: 30px;
-		border: 0;
-		border-top: 1px solid gray;
-		border-bottom: 1px solid gray;
-		float: center;
-		position: relative;
+	width: 80px;
+	margin-top: 5px; 
+	margin-bottom: 30px;
+	border: 0;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	float: center;
+	position: relative;
 	}
 .bordegris /* esta etiqueta es para el div container 2da página  */
 	{
@@ -75,7 +77,9 @@ strong
 		margin-right: 5px;
 		margin-left: 5px;
 	}
-.divport
+.divport /*divport es una clase únicamente para los divs que contienen 
+las imágenes del portafolio, 3 cada uno. 
+La utilicé para poner un margen izquierdo y un margen bottom */
 	{
 		margin-left: 20px;
 		margin-bottom: 30px;
@@ -93,7 +97,7 @@ h2 /*esta etiqueta es para Habilidades y Portafolio 2da página */
 		font-weight: 10px;
 		margin-left: 20px;
 	}
-h3 /* ésta es para Nuestras coders 1a página */
+h3 /* ésta es para texto "Nuestras coders" 1a página */
 	{
 		font-size: 25px;
 		font-weight: 13px;
@@ -115,7 +119,7 @@ h3 /* ésta es para Nuestras coders 1a página */
 		padding-top: 20px;
 		padding-left: 15px;
 	}
-.grande /* Div gris grande*/
+.grande /* Div gris grande 2da página*/
 	{
 		height: 50px;
 		width: 500px;
@@ -123,7 +127,7 @@ h3 /* ésta es para Nuestras coders 1a página */
 		margin-left: 50px;
 		margin-bottom: 30px;
 	}
-.mediano /* Div gris mediano*/
+.mediano /* Div gris mediano 2da página*/
 	{
 		height: 50px;
 		width: 350px;
@@ -131,14 +135,14 @@ h3 /* ésta es para Nuestras coders 1a página */
 		margin-left: 50px;
 		margin-bottom: 30px;
 	}
-.chico /* Div gris chico*/
+.chico /* Div gris chico 2da página*/
 	{
 		height: 50px;
 		width: 200px;
 		background-color: gray;
 		margin-left: 50px;
 	}
-.filter
+.filter /* filtro para fotos de "Nuestras coders" en 1a página */
 	{
 		opacity: 0.8;
 		border-radius: 20px;
@@ -148,7 +152,8 @@ h3 /* ésta es para Nuestras coders 1a página */
 	{
 		position: relative;
 	}
-.imgroup
+.imgroup /* esta etiqueta es para propiedades de 
+			la imagen grupal del index */
 	{
 		width: 700px;
 		margin-top: 20px;
@@ -156,7 +161,8 @@ h3 /* ésta es para Nuestras coders 1a página */
 		margin-right: 0px;
 		margin-left: 0px;
 	}
-.round
+.round /* esta etiqueta es para imagen profile-1.jpg 2da página
+		Podría usarse para la foto de cada uno de los perfiles */
 	{
 		width: 150px;
 		height: 150px;
@@ -169,7 +175,8 @@ body
 	{
 		padding: 30px;
 	}
-h6
+h6 /* esta etiqueta es para el texto 
+		"Nombre y Apellido" 1a página, sobre las fotos */
 	{
 		position: absolute;
 		right: 2%;
